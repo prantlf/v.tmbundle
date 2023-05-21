@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Symbol List - Methods</string>
+	<key>scope</key>
+	<string>source.v meta.function.receiver.declaration.v</string>
+	<key>settings</key>
+	<dict>
+		<key>showInSymbolList</key>
+		<string>1</string>
+		<key>symbolTransformation</key>
+		<string>s/^\s*fn\s+\(.*?\s+\*?(.*?)\)\s*/ $1./</string>
+	</dict>
+	<key>uuid</key>
+	<string>4210C75E-AA2F-4B98-A6AC-8D24C2BC4A4F</string>
+</dict>
+</plist>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>contactEmailRot13</key>
+	<string>prantlf@gmail.com</string>
+	<key>contactName</key>
+	<string>Ferdinand Prantl</string>
+	<key>description</key>
+	<string>V is a simple language for building maintainable programs.</string>
+	<key>name</key>
+	<string>V</string>
+	<key>source</key>
+	<dict>
+		<key>method</key>
+		<string>git</string>
+		<key>url</key>
+		<string>git@github.com:prantlf/v.tmbundle</string>
+	</dict>
+	<key>uuid</key>
+	<string>257A400F-F75E-4C85-B379-4D88A6D08010</string>
+</dict>
+</plist>

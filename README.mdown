@@ -1,0 +1,53 @@
+# V Language TextMate2 Bundle
+
+[V] is a simple language for building maintainable programs.
+
+## Examples
+
+An example of the syntax highlighting in the DarkLime theme:
+
+![Dark](images/dark.png)
+
+An example of the syntax highlighting in the Mac Classic theme:
+
+![Light](images/light.png)
+
+## Installation
+
+If you have only a web browser:
+
+1. Download the [zip archive with this repository].
+2. Unpack the downloaded archive.
+3. Rename the unpacked directory to `v.tmbundle`.
+4. Double click on `v.tmbundle` to install in TextMate.
+
+If you have a development environment with `git`, `make` and `plutil`:
+
+```
+git clone https://github.com/prantlf/v.tmbundle.git
+cd v.tmbundle
+make test install
+```
+
+The latter option will convert the source files to binary format for better performance and omit unnecessary files.
+
+## Features
+
+* Syntax Highlighting
+* Folding
+* Commenting / Uncommenting
+
+## Contributing
+
+In lieu of a formal styleguide, take care to maintain the existing coding
+style. Run `make test` to validate your changes.
+
+## License
+
+Copyright (c) 2023 Ferdinand Prantl
+
+Licensed under the [MIT license].
+
+[zip archive with this repository]: https://github.com/prantlf/v.tmbundle/archive/master.zip
+[MIT license]: ./LICENSE
+[V]: https://vlang.io/
